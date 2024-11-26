@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(226, 222, 222);
+    font-family: Arial,sans-serif;
+    display: block;
+}
+.header{
+    background-color: rgb(39, 38, 38);
+    position: fixed;
+    top:px;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top:0;
+    padding-bottom: 20px;
+    margin-bottom:10px;
+    
+    
+}
+a{
+    text-decoration: none;
+}
+.nav a{
+    color:white;
+    -webkit-transition: color;
+     transition: color 2s;
+}
+.nav{
+    word-spacing: 25px;
+    margin-top:20px;
+    margin-right: 35px;
+    font-size:18px;
+    
+    
+    
+    
+}
+.head{
+    margin-left:30px;
+    margin-top: 20px;
+}
+.menu{
+    background:linear-gradient(to right, #f39c12, #d35400);
+    text-align: center;
+    padding-right:5%;
+    padding-left: 5%;
+    padding-top:7%;
+    padding-bottom:2%;
+    margin-bottom: 25px;
+    color: white;
+    
+   
+    
+    
+    
+}
+.bus{
+    font-size:1.2em;
+    font-family: Arial,sans-serif;
+}
+.p{
+    font-size: 20px;
+}
+.bouton1{
+    background-color:rgb(39, 38, 38);
+    padding: 10px;
+    padding-right:25px;
+    padding-left:25px;
+    border-radius: 5px;
+    font-size:15px;
+    font-family: Arial,sans-serif;
+   
+    
+}
+
+.bouton1:hover{
+    background-color:#f39c12;
+}
+.bouton1 a{
+    color:white;
+    
+}
+.produit{
+    text-align: center;
+    font-family: Arial,sans-serif;
+    margin-top: 50px;
+    
+}
+.bouton{
+    display:flex;
+    justify-content: space-around;
+    margin-left:10px;
+    margin-right:20px;
+    padding-top:30px;
+    text-align: center;
+    margin-bottom: 30px;
+    
+    
+
+    
+}
+.bouton2{
+    background-color: white;
+    padding: 60px;
+    width:23%;
+    border-radius:5px;
+
+}
+.bouton3{
+    background-color: white;
+    padding: 60px;
+    width:23%;
+    border-radius:5px;
+}
+.bouton4{
+    background-color: white;
+    padding: 60px;
+    width:23%;
+    border-radius:5px;
+}
+.bouton5{
+    background-color: white;
+    padding: 50px;
+    width:23%;
+    border-radius:5px;
+}
+.panier{
+    background-color: #f39c12;
+    border:none;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding:10px;
+    border-radius: 5px;
+}
+.panier:hover{
+    background-color:#d35400;
+}
+.panier a{
+    color:white;
+}
+.footer{
+    background-color: rgb(39, 38, 38);
+    color:white;
+    text-align: center;
+    padding:2%;
+}
+
+.bouton2:hover, .bouton3:hover, .bouton4:hover, .bouton5:hover{
+    box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 grey;
+}
+@media screen and (max-width:554px) {
+    .header{
+        display: flex;
+        justify-content:space-between;
+    }
+    .head{
+        white-space: nowrap;
+    }
+    .nav{
+        margin-left: 10px;
+        display: block;
+        justify-content: flex-end;
+    }
+    
+}
